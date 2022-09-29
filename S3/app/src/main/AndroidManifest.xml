@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.s2">
+    package="com.example.s3">
 
     <application
         android:allowBackup="true"
@@ -11,20 +11,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.S2"
+        android:theme="@style/Theme.S3"
         tools:targetApi="31">
         <activity
-            android:name=".ActivityStateSave"
+            android:name=".HomeworkActivity2"
             android:exported="true" />
         <activity
-            android:name=".ActivitySaveStateTwo"
-            android:exported="true" />
+            android:name=".HomeworkActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
